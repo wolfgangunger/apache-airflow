@@ -62,13 +62,7 @@ x-airflow-common:
     - ./logs:/opt/airflow/logs
     - ./plugins:/opt/airflow/plugins
    
-   # - ./dags:/c/workspaces/aws/MWAA/docker/dags
-   # - ./logs:/c/workspaces/aws/MWAA/docker/logs
-   # - ./plugins:/c/workspaces/aws/MWAA/docker/plugins    
-   # - ./test:/c/workspaces/aws/MWAA/docker/test    
-   # - ./plugins:/opt/airflow/plugins    
-   # - ./logs:/opt/airflow/logs
-   # - ./dags:/opt/airflow/dags
+
    # - ./dags:/usr/local/airflow/plugins
    # - ./dags:/usr/local/airflow/logs
    # - ./dags:/usr/local/airflow/dags    

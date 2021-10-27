@@ -29,8 +29,8 @@ dag = DAG(
 dag.doc_md = __doc__
 
 # [START howto_operator_ecs]
-hello_world = ECSOperator(
-    task_id="hello_world",
+ecs_op = ECSOperator(
+    task_id="ecs_task",
     dag=dag,
     aws_conn_id="aws_ecs",
     region_name="eu-central-1",
